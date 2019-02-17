@@ -4,7 +4,7 @@ services:
 
   #--SERVER--#
   webserver:
-    image: 8.0
+    image: tomcat:8.0
     container_name: auto_server
     volumes:
       - .:/var/www/html
